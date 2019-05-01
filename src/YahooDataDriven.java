@@ -46,7 +46,7 @@ public class YahooDataDriven {
 		for(int i=1;i<=rowCount;i++){
 			
 			Row row=sheet.getRow(i);
-			int columnCount=row.getLastCellNum();
+			//int columnCount=row.getLastCellNum();
 			
 			String firstName=row.getCell(0).getStringCellValue();
 			String lastName=row.getCell(1).getStringCellValue();
